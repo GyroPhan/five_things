@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hexcolor/hexcolor.dart';
 
-Color kBackgroundColor = HexColor('ff1F2027');
-Color kMainColor = HexColor('8BD8BD');
-Color kFloatButtonColor = HexColor('eb7a2f');
+Color kBackgroundColor = Color(0xff1F2027);
+Color kMainColor = Color(0xff8BD8BD);
+Color kFloatButtonColor = Color(0xffeb7a2f);
 
 const MaterialColor buttonTextColor = const MaterialColor(
   0xFF4A5BF6,

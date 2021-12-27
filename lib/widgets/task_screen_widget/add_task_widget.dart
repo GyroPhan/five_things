@@ -18,6 +18,7 @@ class AddTaskWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return FloatingActionButton(
       backgroundColor: kFloatButtonColor,
+      elevation: 0,
       child: Icon(
         Icons.add,
         size: 40,

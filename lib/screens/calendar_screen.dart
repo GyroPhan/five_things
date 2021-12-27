@@ -107,6 +107,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
         backgroundColor: kBackgroundColor,
         floatingActionButton: FloatingActionButton(
           backgroundColor: kFloatButtonColor,
+          elevation: 0,
           child: Icon(
             Icons.add,
             size: 40,
