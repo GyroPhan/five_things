@@ -131,6 +131,7 @@ class _SubTaskScreenState extends State<SubTaskScreen> {
       ),
       appBar: AppBar(
         backgroundColor: kBackgroundColor,
+        elevation: 0,
         title: Text(widget.title),
         actions: [
           AppbarCustom(

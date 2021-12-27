@@ -120,7 +120,7 @@ class _TaskScreenState extends State<TaskScreen> {
   Widget build(BuildContext context) {
     double w = MediaQuery.of(context).size.width;
     return Scaffold(
-      // resizeToAvoidBottomInset: false,
+      resizeToAvoidBottomInset: false,
       floatingActionButton: AddTaskWidget(
         controller: controller,
         textOnChanged: (value) {

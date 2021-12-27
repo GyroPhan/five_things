@@ -116,7 +116,6 @@ class _PlanScreenState extends State<PlanScreen> {
     double w = MediaQuery.of(context).size.width;
 
     return Scaffold(
-      // resizeToAvoidBottomInset: false,
       floatingActionButton: AddTaskWidget(
         controller: controller,
         textOnChanged: (value) {

@@ -30,7 +30,8 @@ class AddTaskWidget extends StatelessWidget {
           builder: (context) => Container(
             color: kBackgroundColor,
             child: Padding(
-              padding: EdgeInsets.only(bottom: 15),
+              padding: EdgeInsets.only(
+                  bottom: MediaQuery.of(context).viewInsets.bottom),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -38,6 +39,7 @@ class AddTaskWidget extends StatelessWidget {
                     width: 300,
                     child: TextField(
                         style: TextStyle(color: kFloatButtonColor),
+                        cursorColor: kFloatButtonColor,
                         autofocus: true,
                         controller: controller,
                         decoration: InputDecoration(
